@@ -61,14 +61,22 @@ Open your browser and visit:
 ---
 
 ## 📂 Project Structure
-spring-boot-blog-app/
-├── src/                 # Source code
-│   ├── main/
-│   │   ├── java/        # Java source files
-│   │   └── resources/   # Thymeleaf templates, application.properties
-├── .mvn/                # Maven wrapper
-├── pom.xml              # Maven configuration
-├── mvnw / mvnw.cmd      # Maven wrapper scripts
-└── README.md
+
+| Path                               | Description                                |
+|------------------------------------|--------------------------------------------|
+| `spring-boot-blog-app/`            | Root folder of the project                 |
+| ├── `src/`                         | Source code                                |
+| │   ├── `main/`                    | Main application code                      |
+| │   │   ├── `java/`                | Java source files                          |
+| │   │   └── `resources/`           | Resources (config, templates, static)      |
+| │   │       ├── `static/`          | Static resources (CSS, JS, images)         |
+| │   │       ├── `templates/`       | Thymeleaf HTML templates                   |
+| │   │       └── `application.properties` | Main Spring Boot configuration       |
+| ├── `.mvn/`                        | Maven wrapper files                        |
+| │   └── `wrapper/`                 | Maven wrapper JAR & properties             |
+| ├── `pom.xml`                      | Maven project configuration file           |
+| ├── `mvnw`                         | Maven wrapper script (Linux/Mac)           |
+| ├── `mvnw.cmd`                     | Maven wrapper script (Windows)             |
+| └── `README.md`                    | Project documentation                      |
 
 
