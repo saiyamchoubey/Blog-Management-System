@@ -1,3 +1,5 @@
+👉 [Click here to read the full Problem Statement](./Problem-Statement.md)
+
 # 📝 Blogging Platform (Spring Boot)
 
 A simple yet powerful blogging platform built with **Spring Boot**, created as a learning project while exploring the Spring Framework.
